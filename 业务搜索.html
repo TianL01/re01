@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>业务搜索</title>
+</head>
+<body>
+    <h1>业务搜索</h1>
+    <input autocomplete="off" placeholder="输入业务种类" type="search" id="pwd"/>
+    <input type="button" value="搜索" onclick="login()"/>
+    <script>
+    function login()
+    {
+        var pwd=document.getElementById("pwd").value;
+        if(pwd=="存款")
+        {
+        location.href="存款业务.html";
+        } 
+        else if(pwd=="挂失")
+        {
+        location.href="挂失业务.html";
+        } 
+        else{
+            alert("请输入正确的业务种类！");
+        }
+    }
+</script>
+<p><b>请输入正确的业务种类，例如“存款”、“挂失”。</b></p>
+</body>
+</html>

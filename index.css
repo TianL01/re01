@@ -1,0 +1,26 @@
+.click{
+    height:40px;
+    font-size:20px;
+    }
+.head{
+    color: red;
+    height: 160px;
+    font-size: 3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.body{
+    background-color:rgb(223, 238, 237);
+    margin: 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    width: 579.4px;
+    height: 96.2px;
+}
